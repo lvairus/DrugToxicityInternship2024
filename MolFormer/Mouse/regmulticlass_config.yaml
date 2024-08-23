@@ -1,0 +1,20 @@
+init_project: "Mouse"
+init_group: "regmulticlass"
+init_notes: None
+model_type: "regmulticlass"
+seed_idx: 0
+labelcol: "logtox"
+epochs: 4
+loss_fxn: "unweighted"
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 256
+hidden_size: 256
+output_size: 1
+# cutoff: None
+# dataset: "data/mouse.csv"
+# smilescol: "SMILES"
+# actfxn: "relu"
+# linear_type: "ortho"

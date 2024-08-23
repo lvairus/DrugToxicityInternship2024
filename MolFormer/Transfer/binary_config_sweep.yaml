@@ -1,0 +1,35 @@
+program: binary_pretrain_runscript.py
+project: Transfer
+name: pretrain_mouse_b_2000
+method: grid
+metric:
+  name: val f1
+  goal: maximize
+parameters:
+  seed_idx:
+    value: 0
+  cutoff:
+    value: 2000
+  model_type:
+    value: "binary"
+  loss_fxn:
+    value: "unweighted"
+  epochs:
+    value: 32
+  batch_size:
+    value: 128
+  input_size:
+    value: 768
+  emb_size:
+    values: [256,512,1024]
+  output_size:
+    value: 1
+  lr:
+    value: 0.0001
+  actfxn:
+    values: ["relu","gelu","selu"]
+  linear_type: 
+    values: ["ortho", "xavier"]
+  # hidden_size:
+  #   value: 256
+

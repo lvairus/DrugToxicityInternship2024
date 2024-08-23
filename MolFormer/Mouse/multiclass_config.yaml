@@ -1,0 +1,20 @@
+init_project: "Mouse"
+init_group: "multiclass"
+init_notes: None
+model_type: "multiclass"
+seed_idx: 0
+cutoff: None
+epochs: 4
+loss_fxn: "weighted"
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 256
+hidden_size: 256
+output_size: 5
+# dataset: "data/mouse.csv"
+# smilescol: "SMILES"
+# labelcol: "tox1"
+# actfxn: "relu"
+# linear_type: "ortho"

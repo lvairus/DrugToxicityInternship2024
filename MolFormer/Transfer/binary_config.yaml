@@ -1,0 +1,21 @@
+init_project: "Transfer"
+init_group: "mouse_pretrain"
+init_notes: None
+model_type: "binary"
+seed_idx: 0
+cutoff: 2000
+epochs: 2
+loss_fxn: "unweighted"
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 256
+actfxn: "relu"
+linear_type: "ortho"
+output_size: 1
+# dataset: "data/mouse.csv"
+# smilescol: "SMILES"
+# labelcol: "tox1"
+# hidden_size: 256
+

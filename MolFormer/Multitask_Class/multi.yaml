@@ -1,0 +1,16 @@
+init_project: "Multitask Class Oral Test"
+init_group: "stask"
+init_notes: "debug, ep time, cm"
+dataset: "single_data/mouse"
+task: "mouse"
+seed_idx: 0
+epochs: 5
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 256
+hidden_size: 256
+output_size: 5
+layertype: "OrthoLinear"
+smilescol: "SMILES"
+labelcol: "EPACategoryIndex"

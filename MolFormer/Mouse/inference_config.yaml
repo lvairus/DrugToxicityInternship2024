@@ -1,0 +1,19 @@
+init_project: "Mouse"
+init_group: "inf"
+init_notes: "getting node splits"
+seed_idx: 0
+model_type: "tree"
+cutoff: 500
+epochs: 32
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 256
+hidden_size: 256
+output_size: 1
+# dataset: "data/mouse.csv"
+# smilescol: "SMILES"
+# labelcol: "tox1"
+# actfxn: "relu"
+# linear_type: "ortho"

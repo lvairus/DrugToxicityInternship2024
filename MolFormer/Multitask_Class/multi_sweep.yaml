@@ -1,0 +1,32 @@
+program: run_script_lv_multi.py
+project: Multitask Class Oral Test
+method: grid
+metric:
+  name: val avg auc
+  goal: maximize
+parameters:
+  seed_idx:
+    values: [0,1,2,3]
+  task:
+    value: ["all except human"]
+  input_size:
+    value: 768
+  emb_size:
+    value: 256
+  hidden_size:
+    value: 256
+  output_size:
+    value: 5
+  lr:
+    value: 0.0001
+  test_size:
+    value: 0.2
+  epochs:
+    value: 3
+  layertype:
+    value: OrthoLinear
+  smilescol:
+    value: SMILES
+  labelcol:
+    value: EPACategoryIndex 
+

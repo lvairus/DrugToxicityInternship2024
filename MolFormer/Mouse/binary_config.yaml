@@ -1,0 +1,20 @@
+init_project: "Mouse"
+init_group: "tree"
+init_notes: "no-sig weighted try"
+model_type: "tree"
+seed_idx: 0
+cutoff: 10
+epochs: 32
+loss_fxn: "weighted"
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 256
+hidden_size: 256
+output_size: 1
+# dataset: "data/mouse.csv"
+# smilescol: "SMILES"
+# labelcol: "tox1"
+# actfxn: "relu"
+# linear_type: "ortho"

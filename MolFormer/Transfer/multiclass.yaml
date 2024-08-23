@@ -1,0 +1,19 @@
+init_project: "HumanRodent"
+init_group: "mouse pre"
+init_notes: "testing"
+dataset: "data.csv"
+seed_idx: 0
+epochs: 32
+batch_size: 128
+lr: 0.0001
+testprop: 0.2
+input_size: 768
+emb_size: 512
+hidden_size: None # 256
+layer_sizes: None # 256,128,64,32,16]
+output_size: 1
+actfxn: "relu"
+linear_type: "ortho"
+smilescol: "SMILES"
+labelcol: "Tox"
+timestamp: None

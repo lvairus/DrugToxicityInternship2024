@@ -1,0 +1,27 @@
+program: run_inference.py
+project: Mouse
+name: inference2
+method: grid
+metric:
+  name: "val f1"
+  goal: maximize
+parameters:
+  seed_idx:
+    values: [0,1,2,3,4,5,6,7,8,9]
+  model_type:
+    values: ["tree","binary"]
+  cutoff:
+    values: [10,50,500,2000]
+  # epochs:
+  #   value: 32
+  input_size:
+    value: 768
+  emb_size:
+    value: 256
+  hidden_size:
+    value: 256
+  output_size:
+    value: 1
+  lr:
+    value: 0.0001
+
