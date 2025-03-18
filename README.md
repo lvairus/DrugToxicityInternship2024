@@ -28,4 +28,4 @@ My overall goal throughout these projects was to build and test models to predic
     -   Using docking scores to aid machine learning
         -   Either add it as an input to a model or make a multitask model that also predicts docking score
 
-A pdf of my full write-up for my work can be found as Toxicity_Internship_Report
+A pdf of my full write-up for my work can be found as Toxicity_Internship_Report in this repository
